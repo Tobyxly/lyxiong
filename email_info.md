@@ -58,9 +58,9 @@ def ListThreadsWithLabels(service, user_id, label_ids=[]):
 
 ##### 2.获取label为'INBOX'下每个thread_id和msg_id#####
 
-##### 3.获取label为'INBOX'下每个thread_id所对应的多个msg_id
+##### 3.获取label为'INBOX'下每个thread_id所对应的多个msg_id#####
 
-##### 4.循环获取每个thread_id下的message信息，筛选后放入purposed_message字典,依次存入message_list列表
+##### 4.循环获取每个thread_id下的message信息，筛选后放入purposed_message字典,依次存入message_list列表#####
 
 ###### 若需添加或更改message信息，只需更改下面部分代码获取想要的message属性即可。######
 
