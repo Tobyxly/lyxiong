@@ -2,7 +2,7 @@
 
 ##### 其中用到了GMAIL提供的三种数据结构：Threads, Messages, Labels#####
 
-#### 1. labels:
+#### 1. labels: ####
 
 ##### 就是邮箱中定义的标签,有INBOX,SPAM,SENT,DRAFT等各种类型，我们只需要查看收件箱的内容，此处只用到INXOB即可。#####
 
@@ -10,9 +10,10 @@
 
 ##### Message就是指一条信息，通过查看它的属性和操作，可以知道获得了这个对象你可以获得的相关信息和进行的操作#####
 
-##### 	2.1 Messages对象提供了list方法，返回一个字典包含了两个属性#####
+##### 	2.1 #### 
+####Messages对象提供了list方法，返回一个字典包含了两个属性#####
 
-##### 		id: 邮件的id号	threadId:此邮件所对应的thread id号#####
+##### 		id: 邮件的id号 threadId:此邮件所对应的thread id号#####
 
 
 ##### Gmail API官网提供获取不同label下上述属性的方法：#####
@@ -33,7 +34,7 @@ def GetMessage(service,user_id,msg_id):
 
 
 
-#### 3. Threads:
+#### 3. Threads:####
 
 ##### Threads是指会话的一次(和另外一个账户进行会话的过程)，每一个Threads是可以有多个Messages的#####
 
